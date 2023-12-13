@@ -122,11 +122,86 @@
 
         <div class="container">
             <div class="card-heading justify-content-center">
-                <h1>NSBM Green University</h1>
+                <h1>Paradise Taste</h1>
+                <hr class='mb-3 px-3'><br><br>
                 
+                <div class="modal-body d-flex flex-column justify-content-center">
+                    <div class="booking">
+          
+                      <form class="booking-form row" role="form" action="form.php" method="post">
+                        <div class="col-lg-6 col-12">
+                          <label for="name" class="fw-semibold">Full Name</label>
+          
+                          <input type="text" name="name" id="name" class="form-control" placeholder="Your Name" required>
+                        </div>
+          
+                        <div class="col-lg-6 col-12">
+                          <label for="name" class="fw-semibold">Age</label>
+          
+                          <input type="text" name="age" id="age" class="form-control" placeholder="Your Age" required>
+                        </div>
+          
+                        <div class="col-lg-6 col-12">
+                          <label for="date" class="fw-semibold">Birthdate</label>
+          
+                          <input type="date" name="date" id="date" value="" class="form-control">
+                        </div>
+          
+                        <div class="col-lg-6 col-12"  style="margin-top: 50px;">
+                          <label for="Gender" class="fw-semibold">Gender</label><br>
+                      
+                          <label for="Male" class="fw-normal">Male</label>
+                          <input type="radio" name="gender" id="Male" class=""><br>
+                      
+                          <label for="Female" class="fw-normal">Female</label>
+                          <input type="radio" name="gender" id="Female" class=""><br>
+                      
+                          <label for="Other" class="fw-normal">Other</label>
+                          <input type="radio" name="gender" id="Other" class="">
+                      </div>
+          
+                        <div class="col-lg-6 col-12" style="margin-top: 20px;">
+                          <label for="email" class="fw-semibold">Email Address</label>
+          
+                          <input type="email" name="email" id="email" pattern="[^ @]*@[^ @]*" class="form-control"
+                            placeholder="your@email.com" required>
+                        </div>
+          
+                        <div class="col-lg-6 col-12" style="margin-top: 150px; padding-top: 20px;">
+                          <label for="phone" class="fw-semibold">Contact Number</label>
+          
+                          <input type="telephone" name="phone" id="phone" pattern="[0-9]{10}" class="form-control"
+                            placeholder="071-123-4567" required>
+                        </div>
+          
+          
+          
+          
+                        <div class="col-lg-6 col-12" style="margin-top: -100px;">
+                          <label for="contact method" class="fw-semibold">Select a Contact Method</label>
+          
+                          <select class="form-select form-control" name="package" id="package">
+                            <option value="Email">Email</option>
+                            <option value="Call">Call</option>
+                            <option value="Text">Text</option>
+                          </select>
+                        </div>
+          
+                        <div class="col-12">
+                          <label for="msg" class="fw-semibold">Feedback</label>
+          
+                          <textarea class="form-control" rows="4" id="msg" name="msg" placeholder=""></textarea>
+                        </div>
+                        <div class="col-lg-4 col-12 ms-auto">
+                          <button type="submit" name="submit" class="form-control btn btn-warning">Submit</button>
+                          <button type="reset" name="reset" class="form-control btn btn-warning">Reset</button>
+                        </div>
+                      </form>
+                    </div>
+                  </div>
 
             </div>
-            <hr class='mb-3 px-3'>
+            
         </div>
 
 
