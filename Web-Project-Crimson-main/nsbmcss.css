@@ -347,7 +347,7 @@ html {
     padding-bottom: 10rem;
     text-align: center;
     position: relative;
-    background-image: url("Images/28.png");
+    background-image: url("Images/bg.jpg");
 }
 
 .page-header::before {
